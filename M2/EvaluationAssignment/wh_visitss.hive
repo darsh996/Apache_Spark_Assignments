@@ -1,0 +1,11 @@
+CREATE TABLE wh_visitss (
+  lname STRING,
+  fname STRING,
+  time_of_arvl STRING,
+  appt_scheduled_time STRING,
+  location STRING,
+  comment STRING
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ',';
+
